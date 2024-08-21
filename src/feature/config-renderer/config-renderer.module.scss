@@ -1,0 +1,22 @@
+.json-container,
+.form-container {
+    height: 100%;
+    padding: 1em;
+}
+
+.form-container {
+    border-left: 2px solid black;
+    cursor: col-resize;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.syntax-error{
+    color: red;
+    padding: 3em;
+    margin: 2em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

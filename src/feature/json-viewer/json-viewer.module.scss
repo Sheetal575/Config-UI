@@ -1,0 +1,29 @@
+.json-viewer {
+  display: flex;
+  font-size: 10px;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+  &--count {
+    background-color: rgba(0, 0, 0, 0.145);
+    padding: 0px 1.4em;
+    min-height: max-content;
+  }
+  &--json{
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.action-button{
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    display: flex;
+    gap: 0.5em;
+}
+.json-textArea{
+  width: 100%;
+  height: 100vh;
+  
+}
