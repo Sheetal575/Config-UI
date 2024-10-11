@@ -1,0 +1,48 @@
+{
+  "layout": {
+    "column": 2,
+    "gap": "20px"
+  },
+  "components": [
+    {
+      "type": "section",
+      "style": {
+        "backgroundColor": "black",
+        "borderRadius": "14px",
+        "padding": "10px",
+        "display": "flex",
+        "justifyContent": "center",
+        "gap": "20px",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "type": "h1",
+          "content": "Watch movie every friday",
+          "style": {
+            "color": "yellow"
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "style": {
+        "borderRadius": "14px",
+        "padding": "10px",
+        "display": "flex",
+        "justifyContent": "center",
+        "gap": "20px",
+        "alignItems": "center"
+      },
+      "children": [
+        {
+          "type": "card",
+          "style": {
+            "color": "yellow"
+          }
+        }
+      ]
+    }
+  ]
+}

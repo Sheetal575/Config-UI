@@ -1,8 +1,7 @@
-import { Input } from '@/components/ui/input';
 import RootLayout from './layout';
-import ConfigRender from '@/feature/config-renderer/config-renderer';
+import ConfigRender from '@/feature/home/home';
 
-const Home = () => {
+const Page = () => {
   return (
     <RootLayout>
       <ConfigRender />
@@ -10,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;

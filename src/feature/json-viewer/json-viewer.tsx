@@ -1,6 +1,6 @@
-import React, { memo, useCallback, useEffect, useState } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import styles from './json-viewer.module.scss';
-import jsonData from '../form.json';
+import jsonData from '../ui-config.json';
 import { Button } from '@/components/ui/button';
 import { FORM_JSON } from '@/utilis/constant';
 
